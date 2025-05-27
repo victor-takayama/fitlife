@@ -21,7 +21,7 @@
 
 window.process = {
   env: {
-    API_KEY: 'SUA_CHAVE_API_AQUI_SUBSTITUA_ME' // <<<<<<< COLOQUE SUA CHAVE REAL AQUI
+    API_KEY: 'AIzaSyB-WweHwAVBmhQ4_pgnasnV1M6AggVjpzc' // <<<<<<< COLOQUE SUA CHAVE REAL AQUI
   }
 };
 
