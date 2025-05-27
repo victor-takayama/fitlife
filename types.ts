@@ -17,6 +17,8 @@ export interface User {
   goals?: string[];
   availableEquipment?: string[];
   timePerSession?: number; // minutes
+  age?: number; // Added
+  gender?: Gender; // Added
 }
 
 export enum SubscriptionTier {
@@ -174,7 +176,7 @@ export interface CommunityChallenge {
   id: string;
   title: string;
   description: string;
-  generatedBy: "AI";
+  generatedBy: "AI" | "User"; // Added User type
   durationDays: number;
   rewardPoints?: number;
 }
